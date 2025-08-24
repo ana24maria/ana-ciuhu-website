@@ -2,17 +2,11 @@ name: Render Quarto to docs (main)
 
 on:
   push:
-    branches: [main]     # rulează la orice commit pe main (inclusiv editări din UI)
-    paths:
-      - "**/*.qmd"
-      - "**/*.md"
-      - "assets/**"
-      - "_quarto.yml"
-      - "styles.*"
-  workflow_dispatch:      # opțional: pornire manuală din tab-ul Actions
+    branches: [main]     # rulează la orice commit pe main
+  workflow_dispatch:      # permite rularea manuală din Actions
 
 permissions:
-  contents: write         # ca să poată comite folderul docs
+  contents: write
 
 jobs:
   render:
@@ -21,12 +15,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - uses: quarto-dev/quarto-actions/setup@v2
-
       - name: Render site to docs
         run: quarto render
-
       - name: Commit rendered docs
         run: |
           git config user.name "github-actions[bot]"
