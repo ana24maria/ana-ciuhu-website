@@ -1,6 +1,6 @@
 ---
 title: "Ana-Maria Ciuhu"
-subtitle: "Researcher (National Institute of Statistics) · Researcher (Institute for National Economy) · Lecturer (ASE, 2024–2025)"
+subtitle: "Statistician (National Institute of Statistics) · Researcher (Institute for National Economy)"
 date-format: long
 format:
   html:
@@ -28,7 +28,7 @@ Researcher in official statistics and labour economics, with experience in sampl
 
 - Location: Bucharest, Romania  
 - Areas: social statistics, sampling & weighting, sampling errors, poverty/social inclusion indicators, demography, international migration, labour economics, human capital, R & LaTeX, training.  
-- Affiliations: National Institute of Statistics (INS); Institute for National Economy – Romanian Academy; Bucharest University of Economic Studies (ASE).
+- Affiliations: National Institute of Statistics (INS); Institute for National Economy – Romanian Academy.
 
 ---
 
@@ -39,7 +39,7 @@ Researcher in official statistics and labour economics, with experience in sampl
 **Researcher**, *National Institute of Statistics (INS)* — Bucharest, Romania  
 **Period:** 17 Oct 2011 – present  
 **Unit:** Household surveys sampling unit (since 07 Feb 2013)  
-**Key responsibilities:** sampling frame construction, survey design, weighting and error computation, organization of social surveys, methodological development for social inclusion, poverty and inclusion indicators, questionnaire design, participation in national/EU projects, organization of the *Use of R in Official Statistics (uRos)* conference (13 editions), technical training in R, activities for the 2021 Population and Housing Census.
+**Key responsibilities:** sampling frame construction, survey design, weighting and error computation, organization of social surveys, methodological development for social inclusion, poverty and inclusion indicators, questionnaire design, participation in national/EU projects, organization of the *Use of R in Official Statistics (uRos)* conference (13 editions), technical trainings in R, activities for the 2021 Population and Housing Census.
 </div>
 
 <div class="section-card">
@@ -60,7 +60,7 @@ Researcher in official statistics and labour economics, with experience in sampl
 
 **Demography & Censuses expertise (earlier role)**, *INS – Demography and Censuses Directorate*  
 **Period:** 17 Oct 2011 – 01 Jul 2013  
-**Focus:** methodologies for international migration estimation (EU/UN regulations review, model testing); operations for the 2011 Census (final tables validation, derived indicators).
+**Focus:** methodologies for international migration estimation based on SAE techniques (EU/UN regulations review, model testing); operations for the 2011 Census (final tables validation, derived indicators).
 </div>
 
 ---
@@ -78,7 +78,7 @@ Researcher in official statistics and labour economics, with experience in sampl
 
 **PhD in Economics** — Romanian Academy  
 **Period:** 01 Nov 2015 – 30 Oct 2019  
-**Topic:** *Human capital – potential and reality* (labour economics).
+**Topic:** *Human capital – potential and real* (labour economics).
 </div>
 
 <div class="section-card">
@@ -99,11 +99,11 @@ Researcher in official statistics and labour economics, with experience in sampl
 
 ## Skills {#skills}
 
-- sampling design, weighting, statistical quality control  
+- sampling design, weighting, statistical quality control, questionnaire design
 - data science: data collection, processing, analysis, visualization; dataset creation  
 - R (advanced), LaTeX (very good), open‑source software  
 - poverty/inclusion indicators, social statistics, demography and migration  
-- questionnaire design, technical training, international event organization  
+- technical trainings, international event organization  
 - written/oral communication, teamwork, planning
 
 ---
@@ -119,10 +119,10 @@ Researcher in official statistics and labour economics, with experience in sampl
 
 ## Useful Links {#links}
 
-- **INS** — <https://www.insse.ro>  
+- **INS** — <https://www.r-project.ro>  
 - **ORCID** — 0000‑0002‑2195‑8985  
 - **WOS ResearcherID** — M‑9130‑2018  
-- **Google Scholar** — public profile
+- **Google Scholar** — https://scholar.google.com/citations?user=8o4WmLQAAAAJ
 
 ---
 
@@ -130,5 +130,9 @@ Researcher in official statistics and labour economics, with experience in sampl
 
 |              |                                   |
 |:-------------|:----------------------------------|
+<<<<<<< HEAD
 | **E‑mail**   | dobre.anamaria@hotmail.com        |
+=======
+| **E‑mail**   | dobre.anamaria@hotmail.co         |
+>>>>>>> ddfe912 (Update site)
 | **Location** | Bucharest, Romania                |
