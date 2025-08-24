@@ -1,6 +1,6 @@
 ---
 title: "Ana-Maria Ciuhu"
-subtitle: "Statistician (National Institute of Statistics) · Researcher (Institute for National Economy)"
+subtitle: "Statistician (Romanian National Institute of Statistics) · Researcher (Institute for National Economy, Romanian Academy)"
 date-format: long
 format:
   html:
