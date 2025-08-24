@@ -119,7 +119,7 @@ Researcher in official statistics and labour economics, with experience in sampl
 
 ## Useful Links {#links}
 
-- **INS** — <https://www.r-project.ro>  
+- **R-omanian R Team** — <https://www.r-project.ro>  
 - **ORCID** — 0000‑0002‑2195‑8985  
 - **WOS ResearcherID** — M‑9130‑2018  
 - **Google Scholar** — https://scholar.google.com/citations?user=8o4WmLQAAAAJ
