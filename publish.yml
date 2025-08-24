@@ -1,0 +1,43 @@
+name: Publish Quarto site (gh-pages)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.qmd"
+      - "**/*.md"
+      - "assets/**"
+      - "_quarto.yml"
+      - "styles.*"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # pentru a putea scrie în gh-pages
+
+concurrency:
+  group: quarto-publish
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # Dacă folosiți Python/R, instalați dependențe aici (opțional)
+      # - name: Setup Python
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: "3.11"
+      # - run: pip install -r requirements.txt
+
+      - name: Publish to gh-pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
