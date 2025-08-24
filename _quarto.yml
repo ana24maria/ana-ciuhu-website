@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Ana-Maria Ciuhu"
+  description: "Researcher — personal website"
+  navbar:
+    background: light
+    right:
+      - text: "ORCID"
+        href: https://orcid.org/0000-0002-2195-8985
+      - text: "Web of Science"
+        href: https://www.webofscience.com/wos/author/record/M-9130-2018
+      - text: "Scholar"
+        href: https://scholar.google.com/citations?user=8o4WmLQAAAAJ
+      - icon: linkedin
+        href: https://www.linkedin.com/in/anamariadobre/
+        aria-label: LinkedIn
+  page-footer:
+    center: "© {{< meta year >}} Ana-Maria Ciuhu. Quarto site."
+  search: true
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    toc: true
+    toc-depth: 2
+    toc-title: "Navigation"
+    toc-location: left
+    smooth-scroll: true
+    css: assets/styles.scss

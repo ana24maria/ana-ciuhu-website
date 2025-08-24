@@ -1,0 +1,41 @@
+:root {
+  --accent: #20c997; /* turquoise‑green */
+  --heading: #20c997;
+  --muted: rgba(0,0,0,.6);
+}
+
+body { line-height: 1.6; }
+
+.navbar { border-bottom: 1px solid rgba(0,0,0,.06); }
+
+#title-block-header .quarto-title-banner { padding: 2.25rem 0 1.5rem; }
+
+/* Brand color on headings */
+#title-block-header h1.title,
+main.content h2.anchored,
+main.content h3.anchored { color: var(--heading); }
+
+.badges a {
+  display:inline-block; 
+  padding:.25rem .5rem; 
+  border:1px solid rgba(0,0,0,.1); 
+  border-radius:999px; 
+  margin-right:.4rem; 
+  text-decoration:none;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border: none;
+}
+
+.section-card {
+  border: 1px solid rgba(0,0,0,.06);
+  border-radius: 14px;
+  padding: 1rem 1rem 0.5rem;
+  background: var(--bs-body-bg);
+}
+
+.small-muted { font-size: .95rem; color: var(--muted); }
+
+.dt { width: 12rem; color: var(--bs-secondary-color); }
