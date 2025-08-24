@@ -7,6 +7,15 @@ format:
     anchor-sections: true
 ---
 
+<!-- Stil local pentru titluri turcoaz -->
+<style>
+:root { --brand: #20c997; } /* turcoaz-verde */
+
+#title-block-header h1.title { color: var(--brand); }                  /* H1 (titlul paginii) */
+#title-block-header .quarto-title .subtitle { color: var(--brand); }   /* subtitlul din banner */
+main.content h2.anchored, main.content h3.anchored { color: var(--brand); }  /* H2/H3 din conținut */
+</style>
+
 ::: {.badges}
 [ORCID: 0000-0002-2195-8985](https://orcid.org/0000-0002-2195-8985){.badge}
 [WOS: M-9130-2018](https://www.webofscience.com/wos/author/record/M-9130-2018){.badge}
@@ -92,16 +101,16 @@ Researcher in official statistics and labour economics, with experience in sampl
 
 **BSc in Economics** — ASE, Faculty of Economics  
 **Period:** 2006 – 2009  
-**Topics:** micro/macro‑economics, corporate communication, public relations; dissertation: *The role of brands in the new economy. Case study: Apple*.
+**Topics:** micro/macro-economics, corporate communication, public relations; dissertation: *The role of brands in the new economy. Case study: Apple*.
 </div>
 
 ---
 
 ## Skills {#skills}
 
-- sampling design, weighting, statistical quality control, questionnaire design
+- sampling design, weighting, statistical quality control, questionnaire design  
 - data science: data collection, processing, analysis, visualization; dataset creation  
-- R (advanced), LaTeX (very good), open‑source software  
+- R (advanced), LaTeX (very good), open-source software  
 - poverty/inclusion indicators, social statistics, demography and migration  
 - technical trainings, international event organization  
 - written/oral communication, teamwork, planning
@@ -120,13 +129,12 @@ Researcher in official statistics and labour economics, with experience in sampl
 ## Useful Links {#links}
 
 - **R-omanian R Team** — <https://www.r-project.ro>  
-- **ORCID** — 0000‑0002‑2195‑8985  
-- **WOS ResearcherID** — M‑9130‑2018  
+- **ORCID** — 0000-0002-2195-8985  
+- **WOS ResearcherID** — M-9130-2018  
 - **Google Scholar** — https://scholar.google.com/citations?user=8o4WmLQAAAAJ
 
 ---
 
 ## Contact {#contact}
-**E‑mail**   | dobre.anamaria@hotmail.com        |
-
+**E-mail**   | dobre.anamaria@hotmail.com        |
 **Location** | Bucharest, Romania                |
